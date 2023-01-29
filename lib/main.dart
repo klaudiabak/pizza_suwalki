@@ -39,7 +39,7 @@ class RootPage extends StatelessWidget {
         builder: (context, snapshot) {
           final user = snapshot.data;
           if (user == null) {
-            return LoginPage();
+            return const LoginPage();
           }
           return HomePage(user: user);
         });
