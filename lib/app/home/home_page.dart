@@ -25,6 +25,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Najlepsza pizza w Suwałkach'),
+        backgroundColor: Colors.deepPurple,
       ),
       body: Builder(builder: (context) {
         if (currentIndex == 0) {
