@@ -1,7 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:pizza_suwalki/app/home/my_account/my_account_page_content.dart';
-import 'package:pizza_suwalki/app/home/restaurants/restaurants_page_content.dart';
+import 'package:pizza_suwalki/app/features/home/my_account/my_account_page_content.dart';
+import 'package:pizza_suwalki/app/features/home/restaurants/restaurants_page_content.dart';
 
 import 'add_opinion/add_opinion_page_content.dart';
 
